@@ -4,8 +4,7 @@ const chromium = require('chrome-aws-lambda');
 const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
-const { promisify } = require('util');
-const rimraf = promisify(require('rimraf'));
+const rimraf = require('rimraf');
 const archiver = require('archiver');
 
 const app = express();
