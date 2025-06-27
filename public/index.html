@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Scraper App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Web Scraper App</h1>
+        
+        <div class="input-group">
+            <h2>Google Search</h2>
+            <input type="text" id="searchInput" placeholder="Enter search query">
+            <button onclick="handleSearch()">Search and Download</button>
+        </div>
+
+        <div class="input-group">
+            <h2>Website Capture</h2>
+            <input type="text" id="urlInput" placeholder="Enter website URL">
+            <button onclick="handleWebsite()">Capture and Download</button>
+        </div>
+
+        <div class="input-group">
+            <h2>Video Download</h2>
+            <input type="text" id="videoInput" placeholder="Enter video URL">
+            <button onclick="handleVideo()">Download Video</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
